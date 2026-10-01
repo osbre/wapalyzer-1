@@ -1335,6 +1335,7 @@
       18
     ],
     "description": "Phoenix Framework is an open-source web application framework built using the Elixir programming language.",
+    "dom": "[phx-track-static], [phx-r], [data-phx-link]",
     "icon": "Phoenix Framework.svg",
     "implies": "Elixir",
     "js": {
@@ -1348,7 +1349,7 @@
       18
     ],
     "description": "Phoenix LiveView is a library that brings live, interactive, real-time user experiences to your Phoenix applications.",
-    "dom": "div[data-phx-session]",
+    "dom": "[data-phx-session], [data-phx-main], [data-phx-component], [phx-click], [phx-submit], [phx-change], [phx-hook], [phx-update]",
     "icon": "Phoenix Framework.svg",
     "implies": "Phoenix Framework",
     "js": {
